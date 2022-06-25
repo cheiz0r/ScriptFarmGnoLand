@@ -1,0 +1,1 @@
+while true; do curl 'https://gno.land:5050/' --data-raw 'toaddr=g1avyphrllutr5jd3my5wp9wjv63q79r7wje40um'; /root/gno/build/gnokey query "bank/balances/g1avyphrllutr5jd3my5wp9wjv63q79r7wje40um" --remote gno.land:36657; sleep 2; done
